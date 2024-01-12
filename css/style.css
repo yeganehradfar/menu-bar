@@ -28,6 +28,7 @@
   left: 5px;
   width: 56px;
   height: 45px;
+  cursor: pointer;
 }
 
 .account-icon {
@@ -40,7 +41,7 @@
 
 .title {
   font-size: 22px;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-left: 10px;
 
 }
@@ -212,10 +213,10 @@ form input {
 
   display: flex;
   flex-direction: column;
-  width: 44%;
+  width: 48%;
   align-items: center;
   margin-top: 20px;
-  margin-left: 11px
+  margin-left: 0px
 }
 
 
@@ -228,7 +229,7 @@ form input {
   margin-left: 14px;
   padding: 4px;
   position: relative;
-  bottom: 63px;
+  bottom: 53px;
 
 
 }
@@ -242,4 +243,9 @@ form input {
   align-items: center;
   margin-right: 13px;
 
+}
+.icon-button {
+  background-color: transparent;
+  border: none;
+  
 }
