@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#mainWrapper {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  left: 35%;
+  font-family: "Gill Sans", sans-serif;
+  border: 1px solid #b7aeaec6;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.menu-icon,
+.account-icon {
+  display: inline;
+  width: 40px;
+  position: relative;
+  border-radius: 10px;
+  top: 45px;
+}
+
+.menu-icon {
+  left: 5px;
+  width: 56px;
+  height: 45px;
+}
+
+.account-icon {
+  float: right;
+  right: 15px;
+  width: 56px;
+}
+
+
+
+.title {
+  font-size: 22px;
+  margin-top: 100px;
+  margin-left: 10px;
+
+}
+
+.different-color-title {
+  color: #666363;
+}
+
+#sushi-image,
+#burrito-images,
+#salad-images,
+#breakfast-images {
+  border-radius: 15px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#sushi-image {
+  height: 217px;
+}
+
+#burrito-images {
+  height: 248px;
+}
+
+#salad-images {
+  height: 223px;
+}
+
+#breakfast-images {
+  height: 208px;
+  margin-top: 16px;
+}
+
+
+.search-box {
+  margin-top: 15px;
+  width: 390px;
+  padding: 15px;
+  background-color: #b7aeaec6;
+  border: 1px solid #b7aeaec6;
+  border-radius: 15px;
+
+
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  font-size: 20px;
+}
+
+.menu-box {
+  display: flex;
+  border-radius: 10px;
+}
+
+.flexBox1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.93);
+  width: 150px;
+  margin-left: 7px;
+  position: relative;
+  bottom: 50px;
+  z-index: 1;
+  border-radius: 10px;
+
+
+}
+
+.fc,
+.sc {
+  height: 43%;
+}
+
+.nameprices {
+  order: 1;
+  margin-left: 10px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.52);
+}
+
+.prices {
+  order: 2;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.flexBox2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.93);
+  width: 150px;
+  margin-left: 4px;
+  position: relative;
+  bottom: 50px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.saladprices {
+  order: 1;
+  margin-left: 10px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.52);
+}
+
+.prices2 {
+  order: 2;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.flexBox3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.93);
+  width: 190px;
+  margin-left: 4px;
+  position: relative;
+  bottom: 56px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.burritoprice {
+  order: 1;
+  margin-left: 10px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.52);
+}
+
+.prices3 {
+  order: 2;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.flexBox4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.93);
+  width: 190px;
+  margin-left: 4px;
+  position: relative;
+  bottom: 50px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.brekfastprices {
+  order: 1;
+  margin-left: 10px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.52);
+}
+
+.prices4 {
+  order: 2;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.first-col,
+.sec-col {
+
+  display: flex;
+  flex-direction: column;
+  width: 44%;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 11px
+}
+
+
+
+#flex-container {
+  display: inline-flex;
+  background-color: black;
+  border-radius: 30px;
+  /* align-items: center; */
+  margin-left: 14px;
+  padding: 4px;
+  position: relative;
+  bottom: 63px;
+
+
+}
+
+.flex-item {
+  flex: 1;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  align-items: center;
+  margin-right: 13px;
+
+}
